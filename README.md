@@ -22,5 +22,7 @@ The report groups all 61 canonical quants under nine model families and includes
 - [`results-trimmed.csv`](results-trimmed.csv): all 1,525 configurations and retained samples
 - [`results-all.md`](results-all.md): long-form Markdown table
 - [`results-all-wide.md`](results-all-wide.md): 61-row wide matrix
+- [`model-correctness-vs-master.md`](model-correctness-vs-master.md): per-model merged-versus-master validation
+- [`model-correctness-vs-master.csv`](model-correctness-vs-master.csv): machine-readable correctness metrics
 
 All 61 tested models produced bit-identical saved logits against the control build. The full ROCm backend suite passed 13,986 out of 13,986 tests.
